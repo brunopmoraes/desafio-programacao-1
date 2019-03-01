@@ -13,7 +13,18 @@
 ```$ mvn spring-boot:run```
 
 **After run application, access on your browser**
+
+Access Application
+
 ```http://localhost:8000/```
+
+Access Data Base
+
+```http://localhost:8000/h2```
+
+-user: sa
+
+-password:
 
 **Run all the unit test classes.**
 $ mvn test
