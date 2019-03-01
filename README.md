@@ -1,3 +1,25 @@
+## Instructions for executing the application
+
+**technologies: -Java 8 -Maven -H2**
+
+####Use the following commands:
+
+**Build application**
+
+```$ mvn clean install```
+
+**Run application**
+
+```$ mvn spring-boot:run```
+
+**After run application, access on your browser**
+```http://localhost:8000/```
+
+**Run all the unit test classes.**
+$ mvn test
+
+-----
+
 # Desafio de programação 1
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
