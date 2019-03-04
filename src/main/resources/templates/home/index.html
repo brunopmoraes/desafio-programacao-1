@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Test Nexaas - File Upload">
+    <meta name="author" content="Bruno Passos Moraes">
+    <meta name="contact" content="bruno@bmoraes.com.br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Test Nexaas</title>
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+<noscript>
+    <h2>Sorry! Your browser doesn't support Javascript</h2>
+</noscript>
+<div class="upload-container">
+    <div class="upload-header">
+        <h2>Test Nexaas - File Upload</h2>
+    </div>
+    <div class="upload-content">
+        <div class="single-upload">
+            <h3>Upload Single File</h3>
+            <form method="POST" action="upload" enctype="multipart/form-data" >
+                <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                <button type="submit" class="primary submit-btn">Submit</button>
+            </form>
+            <p th:text="${messages}"></p>
+            <p th:text="${sum}"></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
